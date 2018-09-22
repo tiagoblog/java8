@@ -1,9 +1,9 @@
-package estudos.defaultMethods;
+package estudos.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrgenaStringsComLambda {
+public class OrgenaStrings {
 
 	public static void main(String[] args) {
 		
