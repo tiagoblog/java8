@@ -5,6 +5,14 @@ import java.util.List;
 
 public class OrgenaStrings {
 
+	/*
+	 * 
+	 * Lambdas se aplicam as chamadas interfaces funcionais, 
+	 * ou seja, interfaces que possuem apenas um único metodo abstrato,
+	 * dessa forma o compilador consegue inferir que a expressão lambda
+	 * é a implementação daquele único metódo abstrato da interface funcional. 
+	 */
+	
 	public static void main(String[] args) {
 		
 		System.out.println("Lambda");
