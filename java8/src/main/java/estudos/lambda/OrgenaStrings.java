@@ -32,6 +32,10 @@ public class OrgenaStrings {
 		System.out.println(palavras);
 		
 		palavras.forEach( s -> System.out.println(s));
+		
+		new Thread(() -> System.out.println("Executando um Runnable")).run();
+		
+		
 	}
 
 }
