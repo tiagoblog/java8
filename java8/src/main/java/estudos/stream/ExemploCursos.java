@@ -37,6 +37,12 @@ public class ExemploCursos {
 	    
 	    streamDeString.forEach(System.out::println);
 	    
+	    int totalDeAlunos = cursos.stream().mapToInt(Curso::getAlunos).sum();
+	    
+	    System.out.println("===============================");
+	    
+	    System.out.println("Total de Alunos: "+totalDeAlunos);
+	    
 	    
 	}	
 
